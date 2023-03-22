@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: lightskyblue;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 0;
+  background-color: gold;
+  color: #000;
+}
+p {
+  padding: 5px;
+  margin: 5px;
+}
+p.poem {
+  padding: 10px;
+  background-color: gainsboro;
+  font-style: italic;
+  margin: 10px 10% 30px 15px;
+}
+p.quote {
+  margin: 0;
+  font-style: italic;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px 10% 30px 10%;
+}
+.carousel-caption {
+  color: blue;
+  text-shadow: 1px 1px 2px white, 0 0 10px gold;
+}
+.carousel img {
+  border: white solid 5px;
+}
+.carousel .carousel-indicators button {
+  background-color: #d69b29;
+}
+.carousel .carousel-indicators button.active {
+  background-color: #3dbc15;
+}
+.endOfPage {
+  margin-bottom: 100px;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: antiquewhite;
+  padding: 5px 10px;
+}
+/* .custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+} */
